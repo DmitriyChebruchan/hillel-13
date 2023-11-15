@@ -35,9 +35,9 @@ This project demonstrates implementing caching using Redis in a Django blog appl
 
 ### Running the Project
 
-1. Start the Redis server:
+1. Start the Redis server with Docker:
    ```bash
-   redis-server
+   docker run -p 6379:6379 redis
    ```
 
 2. Run Django migrations:
