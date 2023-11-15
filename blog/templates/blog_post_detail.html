@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p><em>Last updated: {{ post.updated_at }}</em></p>
+    <div>
+        {{ post.content | safe }}
+    </div>
+    <h2><a href="/">Back to menu</a></h2>
+</body>
+</html>
